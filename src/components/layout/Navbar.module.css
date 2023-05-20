@@ -1,0 +1,33 @@
+.navbar {
+    display: flex; 
+    justify-content: space-between; /*espaço entre os elementos*/
+    background-color: #fffbfb;
+    padding: 1em;
+    position: fixed; /*Navbar fixo*/
+    width: 100%;
+    
+
+    
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+}
+
+.item {
+
+    margin-right: 1em;
+
+}
+
+.item a {
+    color: rgb(105, 164, 105);
+    text-decoration: none;
+}
+
+.item a:hover {
+    color: rgb(80, 240, 80);
+}
