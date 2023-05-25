@@ -20,7 +20,7 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path="/company">
+          <Route exact path="/sobre">
             <Company />
           </Route>
           <Route exact path="/contact">
@@ -31,6 +31,9 @@ function App() {
           </Route>
         </Container>     
       </Switch>
+
+      <Project />
+      
       <Footer />     
      
 

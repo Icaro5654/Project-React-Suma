@@ -6,6 +6,6 @@
 }
 
 html, body, #root {
-  background-color: #0d4a1d;
+  background-image: url('./img/fundo-floresta.png');
   height: 100%;
 }

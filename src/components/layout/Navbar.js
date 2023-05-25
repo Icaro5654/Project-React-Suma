@@ -14,10 +14,10 @@ function Navbar() {
                 <Link to=""><img src={logo} alt="Instituto" width="80px" /></Link>
                 <ul className={styles.list}>
                     <li className={styles.item}>
-                        <Link to="/">Home</Link>
+                        <Link to="/">Inicio</Link>
                     </li>
                     <li className={styles.item}>
-                        <Link to="/company">Empresa</Link>
+                        <Link to="/sobre">Sobre</Link>
                     </li>
                     <li className={styles.item}>
                         <Link to="/project">Projetos</Link>
